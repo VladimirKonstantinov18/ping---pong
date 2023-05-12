@@ -75,8 +75,8 @@ clock = time.Clock()
 FPS = 60
 
 bakcground = transform.scale(image.load(dir+"/background.png"), (500, 500))
-player_1 = Player(dir+"/player.png", 10,210, 5,(32, 120), K_w, K_s)
-player_2 = Player(dir+"/player.png", 455,210, 5,(32, 120), K_UP, K_DOWN)
+player_1 = Player(dir+"/player1.png", 10,210, 5,(32, 120), K_w, K_s)
+player_2 = Player(dir+"/player2.png", 455,210, 5,(32, 120), K_UP, K_DOWN)
 circle = Circle(dir+'/circle.png', 250, 250, 8, (32,32))
 
 
